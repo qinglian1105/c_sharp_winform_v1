@@ -1,6 +1,6 @@
-# **vue3_echarts_demo_01**
+# **c_sharp_winform_v1**
 
-## **Creating an Windows Forms App for backend platform with C# **
+## **Creating an Windows Forms App for backend platform with C#**
 
 
 ### **Ⅰ. Purpose** 
