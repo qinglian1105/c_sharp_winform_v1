@@ -1,0 +1,24 @@
+# Ignore Mac DS_Store files
+.DS_Store
+**/.DS_Store
+
+# Ignore folder_working
+folder_working/
+00_working/
+00_working_dir/
+00_work_dir/
+a_working_dir/
+
+# Ignore .env files
+*.env
+*.env.*
+.env
+.env.*
+**/.env
+**/.env.*
+
+
+# Ignore folders of this project
+
+
+
