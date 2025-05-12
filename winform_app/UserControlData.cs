@@ -16,6 +16,7 @@ namespace WinformDemoV01
     public partial class UserControlData : UserControl
     {
         public string fontName = "微軟正黑體";
+        
         public UserControlData()
         {
             InitializeComponent();

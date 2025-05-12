@@ -16,6 +16,7 @@ namespace WinformDemoV01
     public partial class UserControlAuth : UserControl
     {
         public string fontName = "微軟正黑體";
+        
         public UserControlAuth()
         {
             InitializeComponent();
@@ -95,8 +96,7 @@ namespace WinformDemoV01
         }
 
         private void button2_Click(object sender, EventArgs e)
-        {
-            // Choose a Date for metrics and chart
+        {            
             object ChooseItem = comboBox1.SelectedItem;
             object ChooseAction = comboBox1.GetItemText(ChooseItem);
             var user_id = ParseOrDefault(textBox1.Text);

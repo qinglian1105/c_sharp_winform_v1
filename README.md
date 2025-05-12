@@ -1,11 +1,11 @@
 # **c_sharp_winform_v1**
 
-## **Creating an Windows Forms App for backend platform with C#**
+## **Creating an Windows Forms App for investment statistics platform with C#**
 
 
 ### **Ⅰ. Purpose** 
 
- There are still many companies in Taiwan using C# windows forms to develop information systems or applications, especially ERP related applications. The content of this project is a demo to build a backend platform mainly with C# Windows Forms App (.NET Framework) for the investment statistics of top ETFs in Taiwan.<br><br>
+ Although web technology is becoming more and more advanced, there are still many companies in Taiwan using C# windows forms to develop or maintain their information management systems, especially ERP related applications. The content of this project is a demo to build a backend platform for the investment statistics of top ETFs in Taiwan mainly with C# Windows Forms App (.NET Framework) <br><br>
 
 ### **Ⅱ. Tools**
 
@@ -29,8 +29,8 @@ __● Option - Analytics__<br>
 
 Originally, 8 tabs were expected, but they all used the same method, so only 2 are listed for now. If interested, please refer to the project  [[dash_plotly_demo_01](<https://github.com/qinglian1105/dash_plotly_demo_01>)].<br>
 
-(1)Introduction: just a brief description about this study.<br>
-(2)Overview: a dashboard with metrics, charts.<br>
+(1)Tab - Introduction: just a brief description about this study.<br>
+(2)Tab - Overview: a dashboard with metrics, charts.<br>
 
 __● Option - Data Status__<br>
 
@@ -60,7 +60,7 @@ __3. How programming works__ <br>
 
 This windows forms app is built in three parts.<br>
 (1)C# is charge of creating windows forms.<br>
-(2)FastAPI gets data from the database, PostgreSQL, and then processes metrics, charts, and tables. (Please refer the project  [[dash_plotly_demo_01](<https://github.com/qinglian1105/dash_plotly_demo_01>)])<br>
+(2)FastAPI gets data from the database, PostgreSQL, and then processes the figures for metrics, charts, and tables. (Please refer the project  [[dash_plotly_demo_01](<https://github.com/qinglian1105/dash_plotly_demo_01>)])<br>
 (3)The workflow of n8n, as just mentioned, operates periodically for crawling data from the website and saving data into database. The node "Gmail" in workflow will inform the results regardless of whether the workflow executed successfully or not.(Please refer to the similar project  [[n8n_py_js_demo_01](<https://github.com/qinglian1105/n8n_py_js_demo_01>)])<br>
 
 <br>
@@ -103,14 +103,14 @@ Form - Home: as mentioned above.<br>
 __● Option - Analytics__ <br>
 
 
-As mentioned above, this option is the statistics of top equity ETFs in Taiwan.<br>
+This option is the statistics of top equity ETFs in Taiwan.<br>
 
-(1)Introduction<br>
+(1)Tab - Introduction: as mentioned above.<br>
 
 ![avatar](./README_png/analytics_introduction.png)
 <br><br>
 
-(2)Overview: a dashboard has a date picker to choose date for metrics and charts.<br>
+(2)Tab - Overview: a dashboard has a date picker to choose date for metrics and charts.<br>
 
 ![avatar](./README_png/analytics_overview.png)
 <br><br>
@@ -129,19 +129,24 @@ This is user management. Only authorized personnel can add new users, remove use
 ![avatar](./README_png/auth.png)
 <br><br>
 
-The Drop-down list provides three actions, including Create, Update, and Delete, for operating database. For example, create a new user, qqco.
+Below tht table, the Drop-down list provides three actions, including Create, Update, and Delete, for operating database. For example, the picture shows that an new user, qqco, was created.
 
 ![avatar](./README_png/auth_create.png)
 <br><br>
 
-Then, update information, like Email, Password, and Authority, of this user.
+Then, action 'Update' can be used to revise information, like Email, Password, and Authority, of this user.
 
 ![avatar](./README_png/auth_update.png)
 <br><br>
 
-After new adding this user, he or she can login to this platform.
+After new adding this user, he or she can login to this platform for viewing the content.
 
 ![avatar](./README_png/auth_create_login.png)
+<br><br>
+
+However, he or she can be allowed to access some pages, like home and test.
+
+![avatar](./README_png/auth_inaccessible.png)
 <br><br>
 
 
@@ -151,7 +156,7 @@ Of course, this record can be removed by the action - Delete.
 <br><br>
 
 
-__The above offers backend platform by window forms with C#, FastAPI and n8n for investment statistics.__ <br>
+__The above offers backend platform presented in window forms with C#, FastAPI and n8n for investment statistics.__ <br>
 
 <br>
 

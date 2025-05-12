@@ -18,6 +18,7 @@ namespace WinformDemoV01
     public partial class UserControlAnalytics : UserControl
     {
         public string fontName = "微軟正黑體";
+        
         public UserControlAnalytics()
         {
             InitializeComponent();
@@ -177,6 +178,9 @@ namespace WinformDemoV01
             chart2.ChartAreas.Add(chartArea);
             
             chartArea.AxisY.Title = "Unit (M)";
+
+            chart2.ChartAreas["BarchartArea"].AxisX.MajorGrid.LineWidth = 0;
+            chart2.ChartAreas["BarchartArea"].AxisY.MajorGrid.LineWidth = 0;
            
             Series barSeries = new Series();
             barSeries.ChartType = SeriesChartType.Column;

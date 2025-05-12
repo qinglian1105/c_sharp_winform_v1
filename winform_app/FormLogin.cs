@@ -41,13 +41,12 @@ namespace WinformDemoV01
             }
             else
             {
-                MessageBox.Show("Your input:  " + textBoxAccount.Text + "-" + 
-                    textBoxPassword.Text +"\n\n" +
-                    "Sorry, incorrect Account or Password...\n" + "Please retry.");
+                string MsgText = "Sorry, incorrect Account or Password...\n\n" + "Please retry.";
+                string MsgCapton = "Information";
+                MessageBox.Show(MsgText, MsgCapton, MessageBoxButtons.OK, MessageBoxIcon.Information);                                
                 textBoxAccount.Text = "";
                 textBoxPassword.Text = "";
             }
-
         }
 
         private void FormLogin_FormClosing(object sender, FormClosingEventArgs e)
