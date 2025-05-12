@@ -1,6 +1,6 @@
 # **c_sharp_winform_v1**
 
-## **Creating an Windows Forms App for investment statistics platform with C#**
+## **Creating a Windows Forms App for investment statistics platform with C#**
 
 
 ### **Ⅰ. Purpose** 
@@ -68,31 +68,31 @@ This windows forms app is built in three parts.<br>
 
 __4. Results__ <br>
 
-__● Page - Login & Logout__ <br>
+__● Form - Login & Logout__ <br>
 
-Form - login<br>
+Form - Login<br>
 
 ![avatar](./README_png/login.png)
 <br><br>
 
-Form - index: it will appear side menu and content area after logging.<br>
+Form - Index: it would exhibit side menu and content area after logging.<br>
 
 ![avatar](./README_png/index.png)
 <br><br>
 
-Form - index with menu: click upper left button to open and view items in the menu.<br>
+Form - Index (with menu): click upper left button to open and view items in the menu.<br>
 
 ![avatar](./README_png/index_with_menu.png)
 <br><br>
 
 
-After clicking lower left button "Logout", it will display the message box for confirmation to logout.<br>
+After clicking lower left button "Logout", it would display the message box for confirmation to logout.<br>
 
 ![avatar](./README_png/logout.png)
 <br><br>
 
 
-__● Page - Home__ <br>
+__● Form - Home__ <br>
 
 Form - Home: as mentioned above.<br>
 
@@ -103,7 +103,7 @@ Form - Home: as mentioned above.<br>
 __● Option - Analytics__ <br>
 
 
-This option is the statistics of top equity ETFs in Taiwan.<br>
+This option, namely Form - Analytics, is the statistics of top equity ETFs in Taiwan.<br>
 
 (1)Tab - Introduction: as mentioned above.<br>
 
@@ -115,16 +115,16 @@ This option is the statistics of top equity ETFs in Taiwan.<br>
 ![avatar](./README_png/analytics_overview.png)
 <br><br>
 
-__● Option - Data Status__ <br>
+__● Option - Data__ <br>
 
-Display the status, including record counts and lastest records, in main tables of database, invest. <br>
+This form would display the status, including record counts and lastest records, in main tables of database, invest. <br>
 
 ![avatar](./README_png/data.png)
 <br><br>
 
 __● Option - Auth__ <br>
 
-This is user management. Only authorized personnel can add new users, remove users, update information of users. Besides, Using 'Update' to revise the content of coloum 'Authority' can control users for accessible pages. <br>
+This form is about user management. Only authorized personnel can add new users, remove users, update information of users. Besides, Using 'Update' to revise the content of coloum 'Authority' can control users for accessible pages. <br>
 
 ![avatar](./README_png/auth.png)
 <br><br>
@@ -134,7 +134,7 @@ Below tht table, the Drop-down list provides three actions, including Create, Up
 ![avatar](./README_png/auth_create.png)
 <br><br>
 
-Then, action 'Update' can be used to revise information, like Email, Password, and Authority, of this user.
+Then, action 'Update' can be used to revise information, like Email, Password, and Authority, of the user.
 
 ![avatar](./README_png/auth_update.png)
 <br><br>
@@ -144,7 +144,7 @@ After new adding this user, he or she can login to this platform for viewing the
 ![avatar](./README_png/auth_create_login.png)
 <br><br>
 
-However, he or she can be allowed to access some pages, like home and test.
+However, he or she can be allowed to access several pages, like home and test.
 
 ![avatar](./README_png/auth_inaccessible.png)
 <br><br>
