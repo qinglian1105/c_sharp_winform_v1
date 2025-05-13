@@ -5,7 +5,7 @@
 
 ### **Ⅰ. Purpose** 
 
- Although web technology is becoming more and more advanced, there are still many companies in Taiwan using C# windows forms to develop or maintain their information management systems, especially ERP related applications. The content of this project is a demo to build a backend platform for the investment statistics of top ETFs in Taiwan mainly with C# Windows Forms App (.NET Framework) <br><br>
+ Although web technology is becoming more and more advanced, there are still many manufacturing companies in Taiwan using C# windows forms to develop and maintain their information management systems, especially ERP related applications. The content of this project is a demo to build a backend platform for the investment statistics of top ETFs in Taiwan mainly with C# Windows Forms App (.NET Framework) <br><br>
 
 ### **Ⅱ. Tools**
 
