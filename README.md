@@ -32,7 +32,7 @@ Originally, 8 tabs were expected, but they all used the same method, so only 2 a
 (1)Tab - Introduction: just a brief description about this study.<br>
 (2)Tab - Overview: a dashboard with metrics, charts.<br>
 
-__● Option - Data Status__<br>
+__● Option - Data__<br>
 
 Just display a table for checking whether data is inserted successfully or completely.<br>
 
@@ -59,7 +59,7 @@ Besides, web scraping is primarily implemented by "Selenium" and "Beautiful Soup
 __3. How programming works__ <br>
 
 This windows forms app is built in three parts.<br>
-(1)C# is charge of creating windows forms.<br>
+(1)C# is charge of creating windows forms and calling backend APIs for user interface.<br>
 (2)FastAPI gets data from the database, PostgreSQL, and then processes the figures for metrics, charts, and tables. (Please refer the project  [[dash_plotly_demo_01](<https://github.com/qinglian1105/dash_plotly_demo_01>)])<br>
 (3)The workflow of n8n, as just mentioned, operates periodically for crawling data from the website and saving data into database. The node "Gmail" in workflow will inform the results regardless of whether the workflow executed successfully or not.(Please refer to the similar project  [[n8n_py_js_demo_01](<https://github.com/qinglian1105/n8n_py_js_demo_01>)])<br>
 
@@ -156,7 +156,7 @@ Of course, this record can be removed by the action - Delete.
 <br><br>
 
 
-__The above offers backend platform presented in window forms with C#, FastAPI and n8n for investment statistics.__ <br>
+__The above offers backend platform presented in windows forms with C#, FastAPI and n8n for investment statistics.__ <br>
 
 <br>
 
