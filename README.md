@@ -59,7 +59,7 @@ Besides, web scraping is primarily implemented by "Selenium" and "Beautiful Soup
 __3. How programming works__ <br>
 
 This windows forms app is built in three parts.<br>
-(1)C# is charge of creating windows forms and calling backend APIs for user interface.<br>
+(1)C# is charge of creating windows forms and calling backend APIs for user interface. Finally, the programming will be packaged into EXE file for installing and then generate an icon for starting.<br>
 (2)FastAPI gets data from the database, PostgreSQL, and then processes the figures for metrics, charts, and tables. (Please refer the project  [[dash_plotly_demo_01](<https://github.com/qinglian1105/dash_plotly_demo_01>)])<br>
 (3)The workflow of n8n, as just mentioned, operates periodically for crawling data from the website and saving data into database. The node "Gmail" in workflow will inform the results regardless of whether the workflow executed successfully or not.(Please refer to the similar project  [[n8n_py_js_demo_01](<https://github.com/qinglian1105/n8n_py_js_demo_01>)])<br>
 
@@ -67,6 +67,13 @@ This windows forms app is built in three parts.<br>
 
 
 __4. Results__ <br>
+
+__● Start Icon__ <br>
+
+As shown in below picture, there is an icon "WinformDemoV01" on the desk of Windows 11 for starting the programming.<br>
+
+![avatar](./README_png/start_icon.png)
+<br><br>
 
 __● Form - Login & Logout__ <br>
 
